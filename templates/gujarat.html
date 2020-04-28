@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
+
+
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Covid - 19 </title>
+</head>
+<body class="w3-light-grey">
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <span class="w3-bar-item w3-right">COVID-19 Tracker</span>
+</div>
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <h5>Dashboard</h5>
+  </div>
+  <div class="w3-bar-block">
+    <a href="\" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+    <a href="\" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-home fa-fw"></i>  Overview</a>
+    <a href="\World" class="w3-bar-item w3-button w3-padding"><i class="fa fa-globe fa-fw"></i>  World Map</a>
+    <a href="\Prediction" class="w3-bar-item w3-button w3-padding"><i class="fa fa-area-chart fa-fw"></i>  Prediction</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-safari fa-fw"></i>  Gujarat</a>
+      <a href="\Precaution" class="w3-bar-item w3-button w3-padding"><i class="fa fa-newspaper-o fa-fw"></i>  Precations</a>
+
+    <br><br>
+  </div>
+    <div class="w3-container w3-row">
+    <div class="w3-col s8 w3-bar ">
+      <span><strong> By Bhargav </strong></span><br>
+      <a href="mailto: bhargavyagnik99@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+    </div>
+  </div>
+  <hr>
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+<header class="w3-container" style="padding-top:22px">
+    <h1><b> Covid 19 Dashboard</b></h1>
+  </header>
+<!--Main  Dashboard-->
+    <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-quarter">
+      <div class="w3-container w3-red w3-padding-16">
+        <div class="w3-left">
+            <h3>Total Cases</h3>
+            </div>
+        <div class="w3-right">
+          <h3>{{ data.Total }}</h3>
+            <h5>{{ data.New }}<i class="fa fa-arrow-up "></i></h5>
+        </div>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-blue w3-padding-16">
+          <div class="w3-left"><h3>India Active Cases</h3></div>
+        <div class="w3-right">
+          <h3>{{ data.indact }}</h3>
+            <h5>{{ data.indnew }}<i class="fa fa-arrow-up "></i></h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-teal w3-padding-16">
+          <div class="w3-left"><h3>Recovered India</h3></div>
+        <div class="w3-right">
+          <h3>{{ data.recind }}</h3>
+            <h5>{{ data.newrec }} <i class="fa fa-arrow-up "></i></h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-container w3-orange w3-text-white w3-padding-16">
+          <div class="w3-left"><h3>Deaths India</h3></div>
+        <div class="w3-right">
+          <h3>{{ data.inddea }}</h3>
+            <h5>{{ data.indnewd }} <i class="fa fa-arrow-up "></i></h5>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Main dashboard Finish-->
+
+<!--Graphs on the front page -->
+    <hr>
+    <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-half">
+            <div class="w3-container w3-light-grey w3-padding-16">
+                <h4>COVID-19 worldwide Graph</h4>
+                <object type="image/svg+xml" data="{{url_for('static', filename='cases_worldwide.svg')}}"  ></object>
+            </div>
+        </div>
+        <div class="w3-half">
+            <div class="w3-container w3-light-grey w3-padding-16">
+                <h4> Male Female Ratio</h4>
+                <object type="image/svg+xml" data="{{url_for('static', filename='male_female.svg')}}" ></object>
+            </div>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-half">
+            <div class="w3-container w3-light-grey w3-padding-16">
+                <h4>COVID-19 worldwide Graph</h4>
+                <object type="image/svg+xml" data="{{url_for('static', filename='cases_india.svg')}}"  ></object>
+            </div>
+        </div>
+        <div class="w3-half">
+            <div class="w3-container w3-light-grey w3-padding-16">
+                <h4> Prediction for next 2 days</h4>
+                <object type="image/svg+xml" data="{{url_for('static', filename='prediction_india.svg')}}" ></object>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+  <footer class="w3-container w3-padding-16 w3-light-grey">
+    <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Why watch deaths and spread negativity ! Less negative Stats at </p>
+      <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Made by Bhargav Yagnik</p>
+  </footer>
+
+</div>
+</body>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+</html>
