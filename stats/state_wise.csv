@@ -1,32 +1,32 @@
 State,Confirmed,Recovered,Deaths,Active,State_code
-Total,29450,7129,938,21383,TT
-Maharashtra,8590,1282,369,6939,MH
-Gujarat,3548,394,162,2992,GJ
-Delhi,3108,877,54,2177,DL
-Rajasthan,2262,744,50,1468,RJ
-Madhya Pradesh,2165,357,110,1698,MP
-Tamil Nadu,1937,1101,24,812,TN
-Uttar Pradesh,1986,399,31,1556,UP
-Andhra Pradesh,1177,235,31,911,AP
-Telangana,1003,332,25,646,TG
-West Bengal,649,105,20,524,WB
-Jammu and Kashmir,546,164,7,375,JK
-Karnataka,512,193,19,300,KA
-Kerala,482,355,4,123,KL
-Punjab,330,98,19,213,PB
-Haryana,301,213,3,85,HR
-Bihar,345,56,2,287,BR
-Odisha,111,37,1,73,OR
-Jharkhand,103,13,3,87,JH
-Uttarakhand,51,33,0,18,UT
-Himachal Pradesh,40,22,2,16,HP
-Chhattisgarh,37,32,0,5,CT
-Assam,36,27,1,8,AS
-Chandigarh,45,17,0,28,CH
-Andaman and Nicobar Islands,33,11,0,22,AN
-Ladakh,20,16,0,4,LA
+Total,31490,7805,1008,22677,TT
+Maharashtra,9318,1388,400,7530,MH
+Gujarat,3774,434,181,3159,GJ
+Delhi,3314,1078,54,2182,DL
+Madhya Pradesh,2387,373,120,1894,MP
+Rajasthan,2383,781,52,1550,RJ
+Tamil Nadu,2058,1128,25,905,TN
+Uttar Pradesh,2053,462,34,1557,UP
+Andhra Pradesh,1332,287,31,1014,AP
+Telangana,1009,374,25,610,TG
+West Bengal,725,119,22,584,WB
+Jammu and Kashmir,565,176,8,381,JK
+Karnataka,532,215,20,297,KA
+Kerala,486,359,4,123,KL
+Bihar,366,64,2,300,BR
+Punjab,342,101,19,222,PB
+Haryana,308,224,3,81,HR
+Odisha,119,38,1,80,OR
+Jharkhand,105,19,3,83,JH
+Chandigarh,56,17,0,39,CH
+Uttarakhand,54,34,0,20,UT
+Himachal Pradesh,40,25,2,13,HP
+Assam,38,27,1,10,AS
+Chhattisgarh,38,34,0,4,CT
+Andaman and Nicobar Islands,33,15,0,18,AN
+Ladakh,22,16,0,6,LA
 Meghalaya,12,0,1,11,ML
-Puducherry,8,4,0,4,PY
+Puducherry,8,5,0,3,PY
 Goa,7,7,0,0,GA
 Manipur,2,2,0,0,MN
 Tripura,2,2,0,0,TR

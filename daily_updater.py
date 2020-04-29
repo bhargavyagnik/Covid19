@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from iso3166 import countries
 from pygal.style import RotateStyle
-import updator
+
 
 paths={'cw':'static/cases_worldwide.svg',
        'ci':'static/cases_india.svg',
@@ -135,7 +135,6 @@ def plot_world_map(df,path):
     worldmap_chart.render_to_file(path)
 
 if __name__=='__main__':
-    updator.update()
     raw_data=pd.read_csv('stats/raw_data.csv')
     state_wise=pd.read_csv('stats/state_wise.csv')
     state_wise_daily=pd.read_csv('stats/state_wise_daily.csv')

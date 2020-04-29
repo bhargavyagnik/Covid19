@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="" />
+    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gujarat.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gujarat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/precaution.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/precaution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/prediction.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/prediction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/world.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/world.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +25,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="e9bdd858-a452-4b9e-8abc-6a17d00fd013" />
   <component name="ProjectId" id="1b5NPiQwYU1HOVU8CXJUTttnRwp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -150,6 +163,9 @@
       <workItem from="1587989449228" duration="3936000" />
       <workItem from="1587996443536" duration="2536000" />
       <workItem from="1588002631424" duration="6499000" />
+      <workItem from="1588061545896" duration="737000" />
+      <workItem from="1588076795443" duration="2710000" />
+      <workItem from="1588140245360" duration="4818000" />
     </task>
     <servers />
   </component>
@@ -157,22 +173,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="848" height="248" key="GridCell.Tab.0.bottom" timestamp="1588009435746">
+    <state width="848" height="248" key="GridCell.Tab.0.bottom" timestamp="1588145263331">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588009435746" />
-    <state width="848" height="248" key="GridCell.Tab.0.center" timestamp="1588009435745">
+    <state width="848" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588145263331" />
+    <state width="848" height="248" key="GridCell.Tab.0.center" timestamp="1588145263330">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588009435745" />
-    <state width="848" height="248" key="GridCell.Tab.0.left" timestamp="1588009435745">
+    <state width="848" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588145263330" />
+    <state width="848" height="248" key="GridCell.Tab.0.left" timestamp="1588145263330">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588009435745" />
-    <state width="848" height="248" key="GridCell.Tab.0.right" timestamp="1588009435746">
+    <state width="848" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588145263330" />
+    <state width="848" height="248" key="GridCell.Tab.0.right" timestamp="1588145263331">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588009435746" />
+    <state width="848" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588145263331" />
     <state width="1696" height="308" key="GridCell.Tab.1.bottom" timestamp="1587966977915">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -189,19 +205,19 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state width="1696" height="308" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1587966977915" />
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588002699823">
+    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588140547633">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588002699823" />
+    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588140547633" />
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1587991009508">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1587991009508" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588006516116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
+    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588145136432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
     <SUITE FILE_PATH="coverage/Covid19$Covid19.coverage" NAME="Covid19 Coverage Results" MODIFIED="1587965882255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588009050448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588007532214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588145263320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588145170452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

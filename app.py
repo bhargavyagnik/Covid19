@@ -38,10 +38,13 @@ def get_world_data():
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/' , methods=("POST", "GET"))
 def home():
     data=get_world_data()
-    return render_template('index.html',data=data)
+    ind_top10 = pd.read_csv('stats/state_wise.csv')
+    ind_top10 = ind_top10.drop('State_code',axis=1)
+    ind_top10 = ind_top10.head(11)
+    return render_template('index.html',data=data,column_names=ind_top10.columns.values, row_data=list(ind_top10.values.tolist()),zip=zip)
 
 @app.route('/Gujarat')
 def Gujarat():

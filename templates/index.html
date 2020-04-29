@@ -15,7 +15,7 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
     <meta charset="UTF-8">
     <title>Covid - 19 </title>
 </head>
-<body class="w3-light-grey">
+<body class="w3-white">
 <!-- Top container -->
 <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
   <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
@@ -99,35 +99,53 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
 <!--Graphs on the front page -->
     <hr>
     <div class="w3-row-padding w3-margin-bottom">
-        <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
+        <div class="w3-twothird">
+            <div class="w3-container w3-white w3-padding-16">
                 <h4>COVID-19 worldwide Graph</h4>
                 <object type="image/svg+xml" data="{{url_for('static', filename='cases_worldwide.svg')}}"  ></object>
             </div>
         </div>
-        <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
+        <div class="w3-third">
+            <div class="w3-container w3-white w3-padding-16">
                 <h4> Male Female Ratio</h4>
                 <object type="image/svg+xml" data="{{url_for('static', filename='male_female.svg')}}" ></object>
+            </div>
+            <div class="w3-container w3-white w3-padding-16">
+                <a class="twitter-timeline" href="https://twitter.com/COVIDNewsByMIB?ref_src=twsrc%5Etfw" data-height="300px" data-width="100%">Tweets by COVIDNewsByMIB</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
     <div class="w3-row-padding w3-margin-bottom">
         <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
-                <h4>COVID-19 worldwide Graph</h4>
+            <div class="w3-container w3-white ">
+                <h4>COVID-19 India Graph</h4>
                 <object type="image/svg+xml" data="{{url_for('static', filename='cases_india.svg')}}"  ></object>
             </div>
         </div>
         <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
-                <h4> Prediction for next 2 days</h4>
-                <object type="image/svg+xml" data="{{url_for('static', filename='prediction_india.svg')}}" ></object>
+            <div class="w3-container w3-white w3-padding-16">
+
+            <h4>India Cases Statewise Tally</h4>
+            <hr>
+                <table class="w3-table w3-striped w3-white">
+                <tr>
+                    {% for col in column_names %}
+                        <th>{{col}}</th>
+                    {% endfor %}
+                </tr>
+                    {% for row in row_data %}
+                    <tr>
+                        {% for col, row_ in zip(column_names, row) %}
+                        <td>{{row_}}</td>
+                    {% endfor %}
+                    </tr>
+                    {% endfor %}
+            </table>
             </div>
         </div>
     </div>
 <!-- Footer -->
-  <footer class="w3-container w3-padding-16 w3-light-grey">
+  <footer class="w3-container w3-padding-16 w3-white">
     <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Why watch deaths and spread negativity ! Less negative Stats at </p>
       <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Made by Bhargav Yagnik</p>
   </footer>
