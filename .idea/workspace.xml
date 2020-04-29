@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cases_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_india.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cases_worldwide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_worldwide.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/male_female.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/male_female.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/prediction_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/prediction_india.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/world_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/world_map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/case_time_series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/case_time_series.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/state_wise.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/state_wise_daily.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise_daily.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/statewise_tested_numbers_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/statewise_tested_numbers_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/updator.py" beforeDir="false" afterPath="$PROJECT_DIR$/stats/updator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/world_all_cases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/world_all_cases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/world_cases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/world_cases.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gujarat.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gujarat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/precaution.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/precaution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/prediction.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/prediction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/world.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/world.html" afterDir="false" />
-    </list>
+    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +157,7 @@
       <workItem from="1588002631424" duration="6499000" />
       <workItem from="1588061545896" duration="737000" />
       <workItem from="1588076795443" duration="2710000" />
-      <workItem from="1588140245360" duration="21757000" />
+      <workItem from="1588140245360" duration="22372000" />
     </task>
     <task id="LOCAL-00001" summary="added 2 days prediction_india.svg file and still gonna make change">
       <created>1588145335395</created>
@@ -239,10 +217,10 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588140547633" />
-    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588145468185">
+    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588177372027">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1588145468185" />
+    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1588177372027" />
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1587991009508">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
