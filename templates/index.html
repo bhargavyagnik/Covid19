@@ -12,6 +12,16 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
 </style>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164932376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164932376-1');
+</script>
+
     <meta charset="UTF-8">
     <title>Covid - 19 </title>
 </head>
@@ -39,7 +49,7 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
     <div class="w3-col s8 w3-bar ">
       <span><strong> By Bhargav </strong></span><br>
       <a href="mailto: bhargavyagnik99@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
-      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-github"></i></a>
     </div>
   </div>
   <hr>
@@ -144,9 +154,35 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
             </div>
         </div>
     </div>
+<hr>
+<div class="w3-panel">
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <h3>Cases</h3>
+         <object type="image/svg+xml" data="{{url_for('static', filename='ind_cases.svg')}}"  ></object>
+
+    </div>
+  </div>
+
+<div class="w3-panel">
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-third">
+        <h3>Recoveries</h3>
+         <object type="image/svg+xml" data="{{url_for('static', filename='ind_recovered.svg')}}"  ></object>
+        </div>
+        <div class="w3-third">
+            <h3>Deaths</h3>
+         <object type="image/svg+xml" data="{{url_for('static', filename='ind_dead.svg')}}"  ></object>
+        </div>
+        <div class="w3-third">
+            <h3>Community Spread</h3>
+         <object type="image/svg+xml" data="{{url_for('static', filename='piechart_india.svg')}}"  ></object>
+        </div>
+
+    </div>
+
+</div>
 <!-- Footer -->
   <footer class="w3-container w3-padding-16 w3-white">
-    <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Why watch deaths and spread negativity ! Less negative Stats at </p>
       <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Made by Bhargav Yagnik</p>
   </footer>
 

@@ -39,7 +39,7 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
     <div class="w3-col s8 w3-bar ">
       <span><strong> By Bhargav </strong></span><br>
       <a href="mailto: bhargavyagnik99@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
-      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-github"></i></a>
     </div>
   </div>
   <hr>
@@ -50,9 +50,20 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
 <header class="w3-container" style="padding-top:22px">
     <h1><b> Covid 19 Dashboard</b></h1>
   </header>
-
-    <h4> Prediction for next 2 days</h4>
-    <object type="image/svg+xml" data="{{url_for('static', filename='prediction_india.svg')}}" ></object>
+<div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-twothird">
+            <h4> Prediction for next 2 days</h4>
+        <object type="image/svg+xml" data="{{url_for('static', filename='prediction_india.svg')}}" ></object>
+        </div>
+    <div class="w3-third">
+        <hr>
+        <hr>
+        <h4>Prediction is based on the data of collected from previous days and observing the international trend for this Pandemic.</h4>
+        <h4><b>To give you a better understanding of how better India is doing, if the line of "Cases" graph is parallel to X axis means India is doing awesome, More the slope worst the condition of the country in future days </b></h4>
+        <h4>It is very ambigious to provide predictions for more than 10 days. I am trying to get more days in prediction in the next few days</h4>
+        <h5><i>(Disclaimer) This is not guaranteed and it is statistically viewed to be as predicted. Note that other countries are considered in terms of the behaiours of pandemic as whole and not each day</i></h5>
+    </div>
+</div>
 <!-- Footer -->
   <footer class="w3-container w3-padding-16 w3-light-grey">
       <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Made by Bhargav Yagnik</p>

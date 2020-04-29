@@ -25,6 +25,9 @@ def update():
     tested_numbers_icmr_data.to_csv('tested_numbers_icmr_data.csv', index=False)
     world_case.to_csv('world_cases.csv',index=False)
     world_cases.to_csv('world_all_cases.csv',index=False)
+    guj=raw_data[raw_data['Detected State']=='Gujarat']
+    guj.to_csv('gujarat.csv',index=False)
+
 
 if __name__ == '__main__':
     update()

@@ -12,6 +12,16 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
 </style>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164932376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164932376-1');
+</script>
+
     <meta charset="UTF-8">
     <title>Covid - 19 </title>
 </head>
@@ -39,7 +49,7 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
     <div class="w3-col s8 w3-bar ">
       <span><strong> By Bhargav </strong></span><br>
       <a href="mailto: bhargavyagnik99@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
-      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+      <a href="https://github.com/bhargavyagnik" class="w3-bar-item w3-button"><i class="fa fa-github"></i></a>
     </div>
   </div>
   <hr>
@@ -58,26 +68,26 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
             <h3>Total Cases</h3>
             </div>
         <div class="w3-right">
-          <h3>{{ data.Total }}</h3>
-            <h5>{{ data.New }}<i class="fa fa-arrow-up "></i></h5>
+          <h3>{{ data.total }}</h3>
+            <h5>{{ data.newtot }}<i class="fa fa-arrow-up "></i></h5>
         </div>
       </div>
     </div>
     <div class="w3-quarter">
       <div class="w3-container w3-blue w3-padding-16">
-          <div class="w3-left"><h3>India Active Cases</h3></div>
+          <div class="w3-left"><h3>Active Cases</h3></div>
         <div class="w3-right">
-          <h3>{{ data.indact }}</h3>
-            <h5>{{ data.indnew }}<i class="fa fa-arrow-up "></i></h5>
+          <h3>{{ data.active }}</h3>
+            <h5>{{ data.newtot }}<i class="fa fa-arrow-up "></i></h5>
 
         </div>
       </div>
     </div>
     <div class="w3-quarter">
       <div class="w3-container w3-teal w3-padding-16">
-          <div class="w3-left"><h3>Recovered India</h3></div>
+          <div class="w3-left"><h3>Recovered </h3></div>
         <div class="w3-right">
-          <h3>{{ data.recind }}</h3>
+          <h3>{{ data.recovered }}</h3>
             <h5>{{ data.newrec }} <i class="fa fa-arrow-up "></i></h5>
 
         </div>
@@ -85,10 +95,10 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
     </div>
     <div class="w3-quarter">
       <div class="w3-container w3-orange w3-text-white w3-padding-16">
-          <div class="w3-left"><h3>Deaths India</h3></div>
+          <div class="w3-left"><h3>Deaths</h3></div>
         <div class="w3-right">
-          <h3>{{ data.inddea }}</h3>
-            <h5>{{ data.indnewd }} <i class="fa fa-arrow-up "></i></h5>
+          <h3>{{ data.deaths}}</h3>
+            <h5>{{ data.newdeath}} <i class="fa fa-arrow-up "></i></h5>
 
         </div>
       </div>
@@ -99,36 +109,24 @@ html,body,h1,h2,h3,h4,h5 { font-family: "Roboto", sans-serif}
 <!--Graphs on the front page -->
     <hr>
     <div class="w3-row-padding w3-margin-bottom">
-        <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
-                <h4>COVID-19 worldwide Graph</h4>
-                <object type="image/svg+xml" data="{{url_for('static', filename='cases_worldwide.svg')}}"  ></object>
+        <div class="w3-twothird">
+            <div class="w3-container w3-white w3-padding-16">
+                <h4>Gujarat top 10 cities</h4>
+                <object type="image/svg+xml" data="{{url_for('static', filename='guj.svg')}}" ></object>
             </div>
         </div>
-        <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
-                <h4> Male Female Ratio</h4>
-                <object type="image/svg+xml" data="{{url_for('static', filename='male_female.svg')}}" ></object>
+        <div class="w3-third">
+            <div class="w3-container w3-white w3-padding-16">
+                <h4> Spread Ratio</h4>
+                <object type="image/svg+xml" data="{{url_for('static', filename='piechart_guj.svg')}}" ></object>
             </div>
         </div>
     </div>
     <div class="w3-row-padding w3-margin-bottom">
-        <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
-                <h4>COVID-19 worldwide Graph</h4>
-                <object type="image/svg+xml" data="{{url_for('static', filename='cases_india.svg')}}"  ></object>
-            </div>
-        </div>
-        <div class="w3-half">
-            <div class="w3-container w3-light-grey w3-padding-16">
-                <h4> Prediction for next 2 days</h4>
-                <object type="image/svg+xml" data="{{url_for('static', filename='prediction_india.svg')}}" ></object>
-            </div>
-        </div>
+                <object type="image/svg+xml" data="{{url_for('static', filename='guj2.svg')}}" ></object>
     </div>
 <!-- Footer -->
   <footer class="w3-container w3-padding-16 w3-light-grey">
-    <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Why watch deaths and spread negativity ! Less negative Stats at </p>
       <p style="font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif"> Made by Bhargav Yagnik</p>
   </footer>
 

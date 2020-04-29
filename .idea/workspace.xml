@@ -5,6 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tracker.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_updater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cases_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_india.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cases_worldwide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_worldwide.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/male_female.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/male_female.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/prediction_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/prediction_india.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/world_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/world_map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/case_time_series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/case_time_series.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/state_wise.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/state_wise_daily.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise_daily.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/statewise_tested_numbers_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/statewise_tested_numbers_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/updator.py" beforeDir="false" afterPath="$PROJECT_DIR$/stats/updator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/world_all_cases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/world_all_cases.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/world_cases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/world_cases.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/gujarat.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gujarat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/precaution.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/precaution.html" afterDir="false" />
@@ -27,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JupyterTrust" id="e9bdd858-a452-4b9e-8abc-6a17d00fd013" />
   <component name="ProjectId" id="1b5NPiQwYU1HOVU8CXJUTttnRwp" />
@@ -165,30 +179,46 @@
       <workItem from="1588002631424" duration="6499000" />
       <workItem from="1588061545896" duration="737000" />
       <workItem from="1588076795443" duration="2710000" />
-      <workItem from="1588140245360" duration="4818000" />
+      <workItem from="1588140245360" duration="21757000" />
     </task>
+    <task id="LOCAL-00001" summary="added 2 days prediction_india.svg file and still gonna make change">
+      <created>1588145335395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588145335395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added 2 days prediction_india.svg file and still gonna make change" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2 days prediction_india.svg file and still gonna make change" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="848" height="248" key="GridCell.Tab.0.bottom" timestamp="1588145263331">
+    <state x="492" y="66" key="CommitChangelistDialog2" timestamp="1588145334447">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588145263331" />
-    <state width="848" height="248" key="GridCell.Tab.0.center" timestamp="1588145263330">
+    <state x="492" y="66" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1588145334447" />
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1588176815886">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588145263330" />
-    <state width="848" height="248" key="GridCell.Tab.0.left" timestamp="1588145263330">
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
+    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1588176815886">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588145263330" />
-    <state width="848" height="248" key="GridCell.Tab.0.right" timestamp="1588145263331">
+    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
+    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1588176815886">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="848" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588145263331" />
+    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
+    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1588176815886">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
     <state width="1696" height="308" key="GridCell.Tab.1.bottom" timestamp="1587966977915">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -209,15 +239,19 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588140547633" />
+    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588145468185">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1588145468185" />
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1587991009508">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1587991009508" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588145136432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
+    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588176769368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
     <SUITE FILE_PATH="coverage/Covid19$Covid19.coverage" NAME="Covid19 Coverage Results" MODIFIED="1587965882255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588145263320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588145170452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588176815876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588176804242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

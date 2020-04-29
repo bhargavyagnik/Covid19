@@ -1,9 +1,6 @@
 from flask import Flask,render_template
 import pandas as pd
 
-def get_guj_data():
-    data=0
-    return data
 
 def get_world_data():
     world_data = pd.read_csv('stats/world_cases.csv')
@@ -33,6 +30,19 @@ def get_world_data():
             'newrec':recover_ind_new,
             'indact':active_cases_ind
             }
+    return data
+
+def get_guj_data():
+    guj=pd.read_csv('stats/state_wise.csv')
+    gujj = pd.read_csv('stats/state_wise_daily.csv')
+    guj=guj[guj['State']=="Gujarat"]
+    data={"total":guj['Confirmed'].values[0],
+          "recovered":guj['Recovered'].values[0],
+          'deaths':guj['Deaths'].values[0],
+          'active': guj['Active'].values[0],
+          'newtot':gujj['GJ'].tail(3).values[0],
+          'newrec':gujj['GJ'].tail(3).values[1],
+          'newdeath':gujj['GJ'].tail(3).values[2]}
     return data
 
 app = Flask(__name__)

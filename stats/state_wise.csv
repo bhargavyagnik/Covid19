@@ -1,30 +1,30 @@
 State,Confirmed,Recovered,Deaths,Active,State_code
-Total,31490,7805,1008,22677,TT
-Maharashtra,9318,1388,400,7530,MH
-Gujarat,3774,434,181,3159,GJ
+Total,32891,8389,1077,23425,TT
+Maharashtra,9915,1593,432,7890,MH
+Gujarat,4082,527,197,3358,GJ
 Delhi,3314,1078,54,2182,DL
-Madhya Pradesh,2387,373,120,1894,MP
-Rajasthan,2383,781,52,1550,RJ
-Tamil Nadu,2058,1128,25,905,TN
-Uttar Pradesh,2053,462,34,1557,UP
+Madhya Pradesh,2560,461,130,1969,MP
+Rajasthan,2393,781,55,1557,RJ
+Tamil Nadu,2162,1210,27,925,TN
+Uttar Pradesh,2134,510,39,1585,UP
 Andhra Pradesh,1332,287,31,1014,AP
-Telangana,1009,374,25,610,TG
+Telangana,1016,408,25,583,TG
 West Bengal,725,119,22,584,WB
-Jammu and Kashmir,565,176,8,381,JK
-Karnataka,532,215,20,297,KA
-Kerala,486,359,4,123,KL
-Bihar,366,64,2,300,BR
-Punjab,342,101,19,222,PB
-Haryana,308,224,3,81,HR
-Odisha,119,38,1,80,OR
-Jharkhand,105,19,3,83,JH
-Chandigarh,56,17,0,39,CH
-Uttarakhand,54,34,0,20,UT
+Jammu and Kashmir,581,192,8,381,JK
+Karnataka,534,216,21,297,KA
+Kerala,496,369,4,123,KL
+Bihar,403,64,2,337,BR
+Punjab,375,101,19,255,PB
+Haryana,311,225,3,83,HR
+Odisha,125,39,1,85,OR
+Jharkhand,107,19,3,85,JH
+Chandigarh,68,17,0,51,CH
+Uttarakhand,54,36,0,18,UT
 Himachal Pradesh,40,25,2,13,HP
-Assam,38,27,1,10,AS
+Assam,38,29,1,8,AS
 Chhattisgarh,38,34,0,4,CT
 Andaman and Nicobar Islands,33,15,0,18,AN
-Ladakh,22,16,0,6,LA
+Ladakh,22,17,0,5,LA
 Meghalaya,12,0,1,11,ML
 Puducherry,8,5,0,3,PY
 Goa,7,7,0,0,GA
