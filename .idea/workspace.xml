@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="" />
+    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cases_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_india.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cases_worldwide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_worldwide.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/guj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/guj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/guj2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/guj2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ind_cases.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ind_cases.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ind_dead.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ind_dead.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ind_recovered.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ind_recovered.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/male_female.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/male_female.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/piechart_guj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/piechart_guj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/piechart_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/piechart_india.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/prediction_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/prediction_india.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/world_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/world_map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/case_time_series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/case_time_series.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/state_wise.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/state_wise_daily.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise_daily.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/statewise_tested_numbers_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/statewise_tested_numbers_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats/world_all_cases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/world_all_cases.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +176,8 @@
       <workItem from="1588002631424" duration="6499000" />
       <workItem from="1588061545896" duration="737000" />
       <workItem from="1588076795443" duration="2710000" />
-      <workItem from="1588140245360" duration="22372000" />
+      <workItem from="1588140245360" duration="23629000" />
+      <workItem from="1588221592707" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="added 2 days prediction_india.svg file and still gonna make change">
       <created>1588145335395</created>
@@ -166,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588145335395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated work">
+      <created>1588177525989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588177525989</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,29 +201,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added 2 days prediction_india.svg file and still gonna make change" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 2 days prediction_india.svg file and still gonna make change" />
+    <MESSAGE value="Updated work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="66" key="CommitChangelistDialog2" timestamp="1588177525252">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="492" y="66" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1588177525252" />
-    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1588176815886">
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1588221726604">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
-    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1588176815886">
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588221726604" />
+    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1588221726604">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
-    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1588176815886">
+    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588221726604" />
+    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1588221726604">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
-    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1588176815886">
+    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588221726604" />
+    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1588221726604">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588176815886" />
+    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588221726604" />
     <state width="1696" height="308" key="GridCell.Tab.1.bottom" timestamp="1587966977915">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -213,10 +241,10 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state width="1696" height="308" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1587966977915" />
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588140547633">
+    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588221637003">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588140547633" />
+    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588221637003" />
     <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588177372027">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -227,9 +255,9 @@
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1587991009508" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588176769368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
+    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588221643479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
     <SUITE FILE_PATH="coverage/Covid19$Covid19.coverage" NAME="Covid19 Coverage Results" MODIFIED="1587965882255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588176815876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588176804242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588221726592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588221710645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

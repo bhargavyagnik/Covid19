@@ -1,25 +1,25 @@
 State,Confirmed,Recovered,Deaths,Active,State_code
-Total,32891,8389,1077,23425,TT
+Total,33184,8455,1081,23648,TT
 Maharashtra,9915,1593,432,7890,MH
 Gujarat,4082,527,197,3358,GJ
-Delhi,3314,1078,54,2182,DL
+Delhi,3439,1092,56,2291,DL
 Madhya Pradesh,2560,461,130,1969,MP
-Rajasthan,2393,781,55,1557,RJ
+Rajasthan,2524,827,57,1640,RJ
 Tamil Nadu,2162,1210,27,925,TN
 Uttar Pradesh,2134,510,39,1585,UP
 Andhra Pradesh,1332,287,31,1014,AP
-Telangana,1016,408,25,583,TG
-West Bengal,725,119,22,584,WB
+Telangana,1016,409,25,582,TG
+West Bengal,758,124,22,612,WB
 Jammu and Kashmir,581,192,8,381,JK
 Karnataka,534,216,21,297,KA
 Kerala,496,369,4,123,KL
 Bihar,403,64,2,337,BR
 Punjab,375,101,19,255,PB
 Haryana,311,225,3,83,HR
-Odisha,125,39,1,85,OR
+Odisha,128,39,1,88,OR
 Jharkhand,107,19,3,85,JH
 Chandigarh,68,17,0,51,CH
-Uttarakhand,54,36,0,18,UT
+Uttarakhand,55,36,0,19,UT
 Himachal Pradesh,40,25,2,13,HP
 Assam,38,29,1,8,AS
 Chhattisgarh,38,34,0,4,CT
