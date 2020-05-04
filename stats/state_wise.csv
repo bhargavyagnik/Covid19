@@ -1,35 +1,35 @@
 State,Confirmed,Recovered,Deaths,Active,State_code
-Total,33184,8455,1081,23648,TT
-Maharashtra,9915,1593,432,7890,MH
-Gujarat,4082,527,197,3358,GJ
-Delhi,3439,1092,56,2291,DL
-Madhya Pradesh,2560,461,130,1969,MP
-Rajasthan,2524,827,57,1640,RJ
-Tamil Nadu,2162,1210,27,925,TN
-Uttar Pradesh,2134,510,39,1585,UP
-Andhra Pradesh,1332,287,31,1014,AP
-Telangana,1016,409,25,582,TG
-West Bengal,758,124,22,612,WB
-Jammu and Kashmir,581,192,8,381,JK
-Karnataka,534,216,21,297,KA
-Kerala,496,369,4,123,KL
-Bihar,403,64,2,337,BR
-Punjab,375,101,19,255,PB
-Haryana,311,225,3,83,HR
-Odisha,128,39,1,88,OR
-Jharkhand,107,19,3,85,JH
-Chandigarh,68,17,0,51,CH
-Uttarakhand,55,36,0,19,UT
-Himachal Pradesh,40,25,2,13,HP
-Assam,38,29,1,8,AS
-Chhattisgarh,38,34,0,4,CT
-Andaman and Nicobar Islands,33,15,0,18,AN
-Ladakh,22,17,0,5,LA
-Meghalaya,12,0,1,11,ML
-Puducherry,8,5,0,3,PY
+Total,44358,12283,1513,30558,TT
+Maharashtra,12974,2115,548,10311,MH
+Gujarat,5804,1195,319,4290,GJ
+Delhi,4549,1362,64,3123,DL
+Tamil Nadu,3550,1409,31,2110,TN
+Rajasthan,3016,1356,75,1585,RJ
+Madhya Pradesh,2837,798,156,1883,MP
+Uttar Pradesh,2766,802,43,1921,UP
+West Bengal,1259,218,133,908,WB
+Andhra Pradesh,1650,524,33,1093,AP
+Punjab,1232,128,23,1081,PB
+Telangana,1085,585,29,471,TG
+Jammu and Kashmir,726,303,8,415,JK
+Karnataka,651,321,27,302,KA
+Bihar,528,124,4,400,BR
+Haryana,517,254,6,257,HR
+Kerala,500,462,4,34,KL
+Odisha,169,60,1,108,OR
+Jharkhand,115,27,3,85,JH
+Chandigarh,102,21,1,80,CH
+Uttarakhand,60,39,1,20,UT
+Chhattisgarh,58,36,0,22,CT
+Assam,43,33,1,9,AS
+Ladakh,42,17,0,25,LA
+Himachal Pradesh,41,34,2,2,HP
+Andaman and Nicobar Islands,33,32,0,1,AN
+Tripura,16,2,0,14,TR
+Meghalaya,12,10,1,1,ML
+Puducherry,12,6,0,6,PY
 Goa,7,7,0,0,GA
 Manipur,2,2,0,0,MN
-Tripura,2,2,0,0,TR
 Mizoram,1,0,0,1,MZ
 Arunachal Pradesh,1,1,0,0,AR
 Nagaland,0,0,0,0,NL
