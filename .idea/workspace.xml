@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cases_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_india.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cases_worldwide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/cases_worldwide.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/guj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/guj.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/guj2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/guj2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ind_cases.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ind_cases.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ind_dead.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ind_dead.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ind_recovered.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ind_recovered.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/male_female.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/male_female.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/piechart_guj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/piechart_guj.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/piechart_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/piechart_india.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/prediction_india.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/prediction_india.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/world_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/world_map.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stats/case_time_series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/case_time_series.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats/gujarat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/gujarat.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stats/raw_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/raw_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stats/state_wise.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stats/state_wise_daily.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stats/state_wise_daily.csv" afterDir="false" />
@@ -55,6 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bhargav/bhargavyagnik.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -63,7 +51,7 @@
       <recent name="D:\Covid19\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
+  <component name="RunManager" selected="Python.updator">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Covid19/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -143,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.updator" />
         <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.daily_updater" />
-        <item itemvalue="Python.updator" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -182,7 +170,9 @@
       <workItem from="1588076795443" duration="2710000" />
       <workItem from="1588140245360" duration="23629000" />
       <workItem from="1588221592707" duration="1359000" />
-      <workItem from="1588608336517" duration="296000" />
+      <workItem from="1588608336517" duration="810000" />
+      <workItem from="1588867395995" duration="170000" />
+      <workItem from="1588916879367" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="added 2 days prediction_india.svg file and still gonna make change">
       <created>1588145335395</created>
@@ -198,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588177525989</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes in the visulizations">
+      <created>1588608683622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588608683622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,29 +204,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added 2 days prediction_india.svg file and still gonna make change" />
     <MESSAGE value="Updated work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated work" />
+    <MESSAGE value="Changes in the visulizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in the visulizations" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="66" key="CommitChangelistDialog2" timestamp="1588177525252">
+    <state x="492" y="66" key="CommitChangelistDialog2" timestamp="1588608682575">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="492" y="66" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1588177525252" />
-    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1588608472655">
+    <state x="492" y="66" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1588608682575" />
+    <state x="650" y="226" key="FileChooserDialogImpl" timestamp="1588916889489">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588608472655" />
-    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1588608472654">
+    <state x="650" y="226" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1588916889489" />
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1588867567786">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588608472654" />
-    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1588608472652">
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1588867567786" />
+    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1588867567786">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588608472652" />
-    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1588608472654">
+    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1588867567786" />
+    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1588867567786">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588608472654" />
+    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1588867567786" />
+    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1588867567786">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1588867567786" />
     <state width="1696" height="308" key="GridCell.Tab.1.bottom" timestamp="1587966977915">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -246,21 +248,21 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state width="1696" height="308" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1587966977915" />
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588608337238">
+    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588916879702">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588608337238" />
-    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588177372027">
+    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588916879702" />
+    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588608690377">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1588177372027" />
+    <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1739.939@0.0.1739.939" timestamp="1588608690377" />
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1587991009508">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1587991009508" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588221643479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
+    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1588867407534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
     <SUITE FILE_PATH="coverage/Covid19$Covid19.coverage" NAME="Covid19 Coverage Results" MODIFIED="1587965882255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588608472609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1588221710645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

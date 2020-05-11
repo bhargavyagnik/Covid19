@@ -1,39 +1,39 @@
 State,Confirmed,Recovered,Deaths,Active,State_code
-Total,44358,12283,1513,30558,TT
-Maharashtra,12974,2115,548,10311,MH
-Gujarat,5804,1195,319,4290,GJ
-Delhi,4549,1362,64,3123,DL
-Tamil Nadu,3550,1409,31,2110,TN
-Rajasthan,3016,1356,75,1585,RJ
-Madhya Pradesh,2837,798,156,1883,MP
-Uttar Pradesh,2766,802,43,1921,UP
-West Bengal,1259,218,133,908,WB
-Andhra Pradesh,1650,524,33,1093,AP
-Punjab,1232,128,23,1081,PB
-Telangana,1085,585,29,471,TG
-Jammu and Kashmir,726,303,8,415,JK
-Karnataka,651,321,27,302,KA
-Bihar,528,124,4,400,BR
-Haryana,517,254,6,257,HR
-Kerala,500,462,4,34,KL
-Odisha,169,60,1,108,OR
-Jharkhand,115,27,3,85,JH
-Chandigarh,102,21,1,80,CH
-Uttarakhand,60,39,1,20,UT
-Chhattisgarh,58,36,0,22,CT
-Assam,43,33,1,9,AS
+Total,54512,15656,1833,37019,TT
+Maharashtra,16758,3094,651,13013,MH
+Gujarat,7013,1500,425,5088,GJ
+Delhi,5532,1542,65,3925,DL
+Tamil Nadu,5409,1547,37,3825,TN
+Rajasthan,3400,1740,95,1565,RJ
+Madhya Pradesh,3138,1099,185,1854,MP
+Uttar Pradesh,3071,1250,62,1759,UP
+Andhra Pradesh,1833,780,38,1015,AP
+Punjab,1644,149,28,1467,PB
+West Bengal,1548,296,151,1101,WB
+Telangana,1122,693,29,400,TG
+Jammu and Kashmir,793,335,9,449,JK
+Karnataka,705,366,30,308,KA
+Haryana,625,260,7,358,HR
+Bihar,549,188,5,356,BR
+Kerala,503,474,4,25,KL
+Odisha,219,62,2,155,OR
+Chandigarh,134,21,1,112,CH
+Jharkhand,132,37,3,92,JH
+Tripura,64,2,0,62,TR
+Uttarakhand,61,39,1,21,UT
+Chhattisgarh,59,36,0,23,CT
+Assam,46,35,1,10,AS
+Himachal Pradesh,46,34,3,6,HP
 Ladakh,42,17,0,25,LA
-Himachal Pradesh,41,34,2,2,HP
-Andaman and Nicobar Islands,33,32,0,1,AN
-Tripura,16,2,0,14,TR
+Andaman and Nicobar Islands,33,33,0,0,AN
 Meghalaya,12,10,1,1,ML
-Puducherry,12,6,0,6,PY
+Puducherry,9,6,0,3,PY
 Goa,7,7,0,0,GA
 Manipur,2,2,0,0,MN
-Mizoram,1,0,0,1,MZ
+Mizoram,1,1,0,0,MZ
 Arunachal Pradesh,1,1,0,0,AR
+Dadra and Nagar Haveli and Daman and Diu,1,0,0,1,DN
 Nagaland,0,0,0,0,NL
-Dadra and Nagar Haveli,0,0,0,0,DN
 Daman and Diu,0,0,0,0,DD
 Lakshadweep,0,0,0,0,LD
 Sikkim,0,0,0,0,SK
