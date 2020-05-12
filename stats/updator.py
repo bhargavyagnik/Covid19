@@ -8,7 +8,11 @@ def get_data(url):
     return pd.read_csv(io.StringIO(s.decode('utf-8')))
 
 def update():
-    raw_data= get_data('https://api.covid19india.org/csv/latest/raw_data.csv')
+    raw_data= get_data('https://api.covid19india.org/csv/latest/raw_data1.csv')
+    raw_data2 = get_data('https://api.covid19india.org/csv/latest/raw_data2.csv')
+    raw_data3= get_data('https://api.covid19india.org/csv/latest/raw_data3.csv')
+    raw_data=raw_data.append(raw_data2)
+    raw_data = raw_data.append(raw_data3)
     state_wise = get_data("https://api.covid19india.org/csv/latest/state_wise.csv")
     state_wise_daily = get_data("https://api.covid19india.org/csv/latest/state_wise_daily.csv")
     statewise_tested_numbers_data=get_data('https://api.covid19india.org/csv/latest/statewise_tested_numbers_data.csv')
@@ -26,6 +30,7 @@ def update():
     world_case.to_csv('world_cases.csv',index=False)
     world_cases.to_csv('world_all_cases.csv',index=False)
     guj=raw_data[raw_data['Detected State']=='Gujarat']
+    print(len(guj))
     guj.to_csv('gujarat.csv',index=False)
 
 
