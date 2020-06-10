@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="" />
+    <list default="true" id="acee060a-7c2a-4aff-a24c-e813ee26bacd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prediction.ipynb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bhargav/bhargavyagnik.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -41,7 +44,7 @@
       <recent name="D:\Covid19\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.updator">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Covid19/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -121,9 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.updator" />
         <item itemvalue="Python.daily_updater" />
-        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -165,6 +168,21 @@
       <workItem from="1588916879367" duration="12000" />
       <workItem from="1589299092247" duration="1367000" />
       <workItem from="1589387899864" duration="52000" />
+      <workItem from="1590317987161" duration="307000" />
+      <workItem from="1590380913779" duration="1174000" />
+      <workItem from="1590382364236" duration="607000" />
+      <workItem from="1590578154017" duration="5000" />
+      <workItem from="1591001347264" duration="661000" />
+      <workItem from="1591007962120" duration="2549000" />
+      <workItem from="1591253350420" duration="2237000" />
+      <workItem from="1591264337452" duration="888000" />
+      <workItem from="1591273965452" duration="2213000" />
+      <workItem from="1591282483995" duration="1814000" />
+      <workItem from="1591295994074" duration="603000" />
+      <workItem from="1591297292236" duration="678000" />
+      <workItem from="1591356584873" duration="325000" />
+      <workItem from="1591383368510" duration="377000" />
+      <workItem from="1591695878245" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="added 2 days prediction_india.svg file and still gonna make change">
       <created>1588145335395</created>
@@ -204,26 +222,26 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="492" y="66" key="CommitChangelistDialog2/0.0.1739.939@0.0.1739.939" timestamp="1588608682575" />
-    <state x="650" y="226" key="FileChooserDialogImpl" timestamp="1589387949629">
+    <state x="650" y="226" key="FileChooserDialogImpl" timestamp="1591297304611">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="650" y="226" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1589387949629" />
-    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1589300455979">
+    <state x="650" y="226" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1591297304611" />
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom" timestamp="1591016867875">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1589300455979" />
-    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1589300455979">
+    <state width="1696" height="248" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1591016867875" />
+    <state width="1696" height="248" key="GridCell.Tab.0.center" timestamp="1591016867875">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1589300455979" />
-    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1589300455979">
+    <state width="1696" height="248" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1591016867875" />
+    <state width="1696" height="248" key="GridCell.Tab.0.left" timestamp="1591016867874">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1589300455979" />
-    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1589300455979">
+    <state width="1696" height="248" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1591016867874" />
+    <state width="1696" height="248" key="GridCell.Tab.0.right" timestamp="1591016867875">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1589300455979" />
+    <state width="1696" height="248" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1591016867875" />
     <state width="1696" height="308" key="GridCell.Tab.1.bottom" timestamp="1587966977915">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -240,10 +258,10 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state width="1696" height="308" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1587966977915" />
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1588916879702">
+    <state x="566" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1591297292903">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="1000" y="295" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1588916879702" />
+    <state x="566" y="296" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1591297292903" />
     <state x="679" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588608690377">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -254,9 +272,9 @@
     <state x="98" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1587991009508" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1589300354760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
+    <SUITE FILE_PATH="coverage/Covid19$updator.coverage" NAME="updator Coverage Results" MODIFIED="1590317990059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stats" />
     <SUITE FILE_PATH="coverage/Covid19$Covid19.coverage" NAME="Covid19 Coverage Results" MODIFIED="1587965882255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1589299606051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Covid19$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1591013888360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Covid19$daily_updater.coverage" NAME="daily_updater Coverage Results" MODIFIED="1589299831005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
